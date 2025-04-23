@@ -1,4 +1,4 @@
-namespace: lms  # Namespace for both Deployment and Service
+namespace: lms2  # Namespace for both Deployment and Service
 
 postgres:
   password: admin12345 # PostgreSQL database password
