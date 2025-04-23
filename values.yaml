@@ -1,9 +1,4 @@
-namespace: lms1  # Namespace for both Deployment and Service
-
-serviceAccounts:
-  - db-sa  # Service account for database tasks
-  - app-sa # Service account for application tasks
-  - web-sa # Service account for web tasks
+namespace: lms  # Namespace for both Deployment and Service
 
 postgres:
   password: admin12345 # PostgreSQL database password

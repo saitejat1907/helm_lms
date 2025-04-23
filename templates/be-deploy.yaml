@@ -15,7 +15,6 @@ spec:
       labels:
         app: {{ .Values.backend.labels.app }}
     spec:
-      serviceAccountName: {{ index .Values.serviceAccounts 1 }} # app-sa
       containers:
         - name: backend-container
           image: "{{ .Values.backend.container.image }}"
